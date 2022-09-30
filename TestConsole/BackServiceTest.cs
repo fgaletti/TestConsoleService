@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TestConsole
 {
-    internal class Orchestrator : BackgroundService
+    internal class BackServiceTest : BackgroundService
     {
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {

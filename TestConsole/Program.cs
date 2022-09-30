@@ -51,7 +51,7 @@ IHostBuilder  CreateHostBuilder(string[] args)
             options.OrderQuery = $"{executingLocation}{options.OrderQuery}";
         });
 
-    services.AddHostedService<Orchestrator>();
+    services.AddHostedService<BackServiceTest>();
 }
 
  void SetupConfiguration(IConfigurationBuilder configurationBuilder)
